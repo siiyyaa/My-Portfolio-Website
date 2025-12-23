@@ -1,0 +1,76 @@
+:root{
+     --dark: #504B38;
+     --light: #F8F3D9;
+     --back:#efe5b0;
+     --accent:#B9B28A;
+
+}
+html {
+  scroll-behavior: smooth;
+}
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     
+}
+body{
+     font-family: 'Figtree', sans-serif;
+     background-color: var(--light);
+}
+header{
+     background-color: var(--dark);
+     color: var(--light);
+     height:80px;
+} 
+.logo{
+     font-size: 32px;
+     font-weight: bold;
+}
+
+.links{
+     list-style: none;
+     display: flex;
+     margin: auto;
+     justify-content: flex-end;
+     
+}
+
+.links li a{
+     padding: 0 10px;
+     text-decoration: none;
+     color: var(--light);
+     margin-left: 26px;
+     font-size: 20px;
+     transition: color 0.3s ease;
+}
+.links li a:hover{
+     color: var(--accent);
+     
+}    
+.navbar{
+     display:flex;
+     padding: 18px 32px;
+     justify-content: space-between;
+     background-color: var(--dark);
+     align-items: center;
+     box-shadow: 0px 12px 6px var(--dark);
+     
+}
+.btn{
+     background-color: var(--accent);
+     color: var(--dark);
+     padding: 9px 20px;
+     border-radius: 2px;
+     font-weight: 500;
+     border: 2px solid transparent;
+     cursor: pointer;
+     font-size: 17px;
+     outline: none;
+     transition: all .3s ease;
+}
+.btn:hover{
+     background-color: transparent;
+     color: var(--light);
+     border-color: var(--accent);
+}
