@@ -158,3 +158,31 @@ header{
      text-align: center;
      padding: 0 20px;
 }
+#skills{
+     padding: 60px 20px;
+     
+}
+#skills h2{
+     text-align: center;
+     font-size: 42px;
+     font-weight: 700;
+     margin-bottom: 40px;
+     color: var(--dark);
+}
+#skills ul{
+     list-style: none;
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     gap: 30px;
+}
+#skills li{
+     background-color: var(--accent);
+     padding: 20px 30px;
+     border-radius: 8px;
+     border: 3px solid var(--dark);
+     color: var(--dark);
+     font-size: 22px;
+     font-weight: 500;
+     text-align:center;
+}
