@@ -158,6 +158,22 @@ header{
      text-align: center;
      padding: 0 20px;
 }
+.social-icons{
+     text-align: center;
+     margin-top: 20px;
+     
+}
+.social-icons a{
+     text-decoration: none;
+     color: var(--dark);
+     font-size: 18px;
+     margin: 0 12px;
+
+}
+.social-icons a:hover{
+     color: var(--accent);
+     transition:0 0.3s ease;
+}
 #skills{
      padding: 60px 20px;
      
@@ -186,7 +202,10 @@ header{
      font-weight: 500;
      text-align:center;
 }
-
+#skills li:hover{
+     box-shadow:var(--dark) 0px 4px 12px;
+     cursor: pointer;
+}
 
 footer{
      text-align: center;
