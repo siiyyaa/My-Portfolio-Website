@@ -16,7 +16,13 @@ html {
 }
 body{
      font-family: 'Figtree', sans-serif;
-     background-color: var(--light);
+     
+     background-color: var(--back);
+}
+section{
+     margin: 40px auto;
+     max-width: 1200px;
+     padding: 4rem 0;
 }
 header{
      background-color: var(--dark);
@@ -56,6 +62,10 @@ header{
      align-items: center;
      box-shadow: 0px 12px 6px var(--dark);
      
+}
+.btn a{
+     text-decoration: none;
+     color:var(--light);
 }
 .btn{
      background-color: var(--accent);
@@ -109,7 +119,7 @@ header{
 }
 .btn2{
      margin-top: auto;
-     background-color: var(--light);
+     background-color: var(--back);
      color: var(--dark);
      padding: 10px 20px;
      border-radius: 4px;
@@ -125,4 +135,26 @@ header{
      color: var(--light);
      border-color: var(--dark);
 }
-
+#about h2{
+     text-align: center;
+     font-size: 42px;
+     font-weight: 700;
+     margin-bottom: 20px;
+     color: var(--dark);
+}
+#about h3{
+     text-align: center;
+     font-size: 24px;
+     font-weight: 500;
+     margin-bottom: 15px;
+     color: var(--dark);
+}
+#about p{
+     max-width: 900px;
+     margin:0 auto;
+     font-size: 18px;
+     line-height: 1.8;
+     color: var(--dark);
+     text-align: center;
+     padding: 0 20px;
+}
