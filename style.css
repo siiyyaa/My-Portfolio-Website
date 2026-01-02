@@ -463,3 +463,154 @@ footer{
      }
 }
 
+
+@media (max-width: 480px) {
+     .navbar {
+          padding: 12px 15px;
+     }
+
+     .logo {
+          font-size: 20px;
+     }
+
+     .links li a {
+          padding: 0 5px;
+          margin-left: 8px;
+          font-size: 14px;
+     }
+
+     .btn {
+          padding: 7px 15px;
+          font-size: 14px;
+     }
+
+     #hero {
+          margin-top: 10px;
+          padding: 15px;
+     }
+
+     .right {
+          margin-top: 20px;
+     }
+
+     .right h1 {
+          font-size: 28px;
+          margin-bottom: 12px;
+     }
+
+     .right h4 {
+          font-size: 16px;
+     }
+
+     .right p {
+          font-size: 14px;
+          line-height: 1.5;
+     }
+
+     .left img {
+          max-width: 300px;
+     }
+
+     .btn2 {
+          padding: 7px 14px;
+          border: 2px solid var(--dark);
+          font-size: 16px;
+     }
+
+     section {
+          padding: 1.5rem 15px;
+          margin: 15px auto;
+     }
+
+     #about h2 {
+          font-size: 26px;
+     }
+
+     #about h3 {
+          font-size: 16px;
+     }
+
+     #about p {
+          font-size: 14px;
+          padding: 0 10px;
+     }
+
+     .social-icons a {
+          font-size: 16px;
+          margin: 0 8px;
+     }
+
+     #skills h2 {
+          font-size: 26px;
+          margin-bottom: 20px;
+     }
+
+     #skills ul {
+          gap: 10px;
+          padding: 0 5px;
+     }
+
+     #skills li {
+          padding: 12px 15px;
+          font-size: 14px;
+          flex: 1 1 calc(50% - 5px);
+     }
+
+     #projects h2 {
+          font-size: 26px;
+          margin-bottom: 20px;
+     }
+
+     .project {
+          padding: 12px;
+          margin: 12px auto;
+     }
+
+     .project h3 {
+          font-size: 18px;
+          margin-bottom: 10px;
+     }
+
+     .project p {
+          font-size: 13px;
+          line-height: 1.5;
+     }
+
+     #contact h2 {
+          font-size: 26px;
+          margin-bottom: 20px;
+     }
+
+     #contact {
+          padding: 20px 15px;
+          font-size: 14px;
+     }
+
+     .container {
+          padding: 0 10px;
+     }
+
+     form-group {
+          margin-bottom: 15px;
+     }
+
+     label {
+          margin-bottom: 4px;
+          font-size: 14px;
+     }
+
+     input, textarea {
+          padding: 8px;
+          font-size: 14px;
+     }
+
+     button {
+          padding: 10px 15px;
+          font-size: 14px;
+     }
+
+     footer {
+          padding: 12px 8px;
+          font-size: 12px;
+     }
+}
