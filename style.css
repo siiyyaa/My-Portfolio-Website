@@ -249,13 +249,8 @@ header{
      font-size: 18px;
      margin-bottom: 30px;
      color: var(--dark);
-}
-#contact form{
-     max-width: 900px;
-     margin:  auto;
-     display: flex;
-     flex-direction: row;
-     justify-content: center;
+     padding: 50px 0;
+
 }
 
 
