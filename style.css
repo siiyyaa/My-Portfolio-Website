@@ -307,3 +307,159 @@ footer{
      margin-top: 40px;
      font-weight: 500;
 }
+
+@media (max-width: 768px) {
+     .navbar {
+          padding: 15px 20px;
+          flex-direction: column;
+          gap: 15px;
+          height: auto;
+     }
+
+     .logo {
+          font-size: 24px;
+     }
+
+     .links {
+          justify-content: center;
+          flex-wrap: wrap;
+          gap: 15px;
+     }
+
+     .links li a {
+          padding: 0 8px;
+          margin-left: 10px;
+          font-size: 16px;
+     }
+
+     #hero {
+          flex-direction: column;
+          margin-top: 20px;
+          padding: 20px;
+     }
+     .left{
+          margin: 50px 30px;
+          
+     }
+     .right {
+          margin-left: 0;
+          max-width: 100%;
+          text-align: center;
+          margin-top: 30px;
+     }
+
+     .right h1 {
+          font-size: 36px;
+          margin-bottom: 15px;
+     }
+
+     .right h4 {
+          font-size: 18px;
+          margin-bottom: 12px;
+     }
+
+     .right p {
+          font-size: 16px;
+          margin-bottom: 20px;
+     }
+
+     .left img {
+          width: 100%;
+          max-width: 400px;
+          height: auto;
+     }
+
+     .btn2 {
+          padding: 8px 16px;
+          border: 3px solid var(--dark);
+          font-size: 18px;
+     }
+
+     section {
+          padding: 2rem 20px;
+          margin: 20px auto;
+     }
+
+     #about h2 {
+          font-size: 32px;
+     }
+
+     #about h3 {
+          font-size: 18px;
+     }
+
+     #about p {
+          font-size: 16px;
+          padding: 0 15px;
+     }
+
+     #skills h2 {
+          font-size: 32px;
+          margin-bottom: 25px;
+     }
+
+     #skills ul {
+          gap: 15px;
+          padding: 0 10px;
+     }
+
+     #skills li {
+          padding: 15px 20px;
+          font-size: 16px;
+          flex: 1 1 calc(50% - 7.5px);
+          min-width: 120px;
+     }
+
+     #projects h2 {
+          font-size: 32px;
+          margin-bottom: 25px;
+     }
+
+     .project {
+          max-width: 100%;
+          padding: 15px;
+          margin: 15px auto;
+          margin-bottom: 20px;
+     }
+
+     .project h3 {
+          font-size: 20px;
+          margin-bottom: 12px;
+     }
+
+     .project p {
+          font-size: 14px;
+     }
+
+     #contact h2 {
+          font-size: 32px;
+          margin-bottom: 25px;
+     }
+
+     #contact {
+          padding: 30px 20px;
+          font-size: 16px;
+     }
+
+     .container {
+          max-width: 100%;
+          padding: 0 15px;
+     }
+
+     input, textarea {
+          padding: 8px;
+          font-size: 16px;
+     }
+
+     button {
+          width: 100%;
+          padding: 12px 20px;
+          font-size: 16px;
+     }
+
+     footer {
+          padding: 15px 10px;
+          font-size: 14px;
+     }
+}
+
